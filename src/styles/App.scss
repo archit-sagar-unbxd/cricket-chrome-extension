@@ -1,0 +1,30 @@
+body {
+	background-color: #000;
+	// background-color: #2930bf;
+	box-sizing: border-box;
+	width: 600px;
+	height: 500px;
+	overflow: scroll;
+	// border: 1px solid #fa7036;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	font-family: "Courier New", Courier, monospace;
+	// margin: 10px;
+	// border: 1px solid black;
+	// padding: 10px;
+	font-size: 30px;
+	color: #fa7036;
+
+	.logo {
+		background-image: url("https://static.thenounproject.com/png/2005504-200.png");
+		background-size: 100% 100%;
+		width: 40px;
+		height: 40px;
+		margin-right: 10px;
+		filter: invert(66%) sepia(97%) saturate(3543%) hue-rotate(338deg)
+			brightness(100%) contrast(97%);
+	}
+}
