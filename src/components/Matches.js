@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 
 import Match from "./Match";
 import "../styles/Matches.scss";
+import API_KEY from "../details";
 
 const Matches = () => {
 	const [matchesList, setMatchesList] = useState([]);
 
 	useEffect(() => {
 		fetch(
-			"https://api.cricapi.com/v1/currentMatches?apikey=6248dc48-5760-4f1e-8470-de36651854af&offset=0"
+			`https://api.cricapi.com/v1/currentMatches?apikey=${API_KEY}&offset=0`
 		)
 			.then((data) => {
 				return data.json();
