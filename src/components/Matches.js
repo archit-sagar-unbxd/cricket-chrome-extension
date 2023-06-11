@@ -27,7 +27,16 @@ const Matches = () => {
 					return <Match match={match} key={key} />;
 				})
 			) : (
-				<div className="noResults">Nothing to show!</div>
+				<div className="noResults">
+					{/* <lord-icon
+						src="https://cdn.lordicon.com/hrqwmuhr.json"
+						trigger="loop"
+						colors="primary:#fff,secondary:#fff"
+						style={{ width: "50px", height: "50px" }}
+					></lord-icon> */}
+					<img src="noResults.gif" alt="" />
+					&nbsp;No ongoing matches!
+				</div>
 			)}
 		</div>
 	);
