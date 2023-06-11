@@ -1,0 +1,11 @@
+{
+	"name": "Cricket Live!",
+	"version": "1.0.0",
+	"description": "Get details of ongoing matches.",
+	"manifest_version": 3,
+	"author": "Archit A Sagar",
+	"action": {
+		"default_popup": "index.html",
+		"default_title": "Cricket Live!"
+	}
+}
